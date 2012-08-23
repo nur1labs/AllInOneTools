@@ -74,6 +74,30 @@ Public Class KillerCheat
             End If
         Next
     End Sub
+
+    Sub olly()
+        For Each proc As Process In Process.GetProcesses
+            If proc.ProcessName = "OLLYDBG" Then
+                proc.Kill()
+            End If
+        Next
+    End Sub
+
+    Sub rfbonex()
+        For Each proc As Process In Process.GetProcesses
+            If proc.ProcessName = "RF[Bonek_Jancok]" Then
+                proc.Kill()
+            End If
+        Next
+    End Sub
+
+    Sub rf_online()
+        For Each proc As Process In Process.GetProcesses
+            If proc.ProcessName = "RF_Online" Then
+                proc.Kill()
+            End If
+        Next
+    End Sub
 #End Region
 
 End Class

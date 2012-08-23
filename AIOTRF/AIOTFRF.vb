@@ -57,6 +57,9 @@ Public Class AIOTFRF
         cheat.wrppro()
         cheat.hidetools()
         cheat.kikiuce()
+        cheat.olly()
+        cheat.rfbonex()
+        cheat.rf_online()
     End Sub
 
     Private Sub ProcThird_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcThird.Tick
