@@ -32,6 +32,7 @@ Public Class AIOTFRF
 #End Region
 
 #Region "process"
+    Dim cheat As New O2Killer.KillerCheat
     Private Sub ProcPrimary_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcPrimary.Tick
         Dim systemkill As New O2Killer.KillerSystem
         systemkill.taskmanager()
@@ -42,8 +43,9 @@ Public Class AIOTFRF
     End Sub
 
     Private Sub ProcSecond_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcSecond.Tick
-        Dim cheat As New O2Killer.KillerCheat
+        cheat.cheatengine2011()
         cheat.cheatengineold()
+        cheat.cheatenginenew()
         cheat.cheatenginenew()
         cheat.trainer()
         cheat.wrppro()

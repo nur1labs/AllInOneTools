@@ -33,6 +33,7 @@ Partial Class AIOTFRF
         Me.RegisterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CheckingServerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TotalRegisterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BannedCheckToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MaintainingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TweakingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MailingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -53,7 +54,6 @@ Partial Class AIOTFRF
         Me.lstProcesses = New System.Windows.Forms.ListBox()
         Me.Open = New System.Windows.Forms.OpenFileDialog()
         Me.DatasLoad = New System.Windows.Forms.RichTextBox()
-        Me.BannedCheckToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContexAIOT.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -116,6 +116,12 @@ Partial Class AIOTFRF
         Me.TotalRegisterToolStripMenuItem.Name = "TotalRegisterToolStripMenuItem"
         Me.TotalRegisterToolStripMenuItem.Size = New System.Drawing.Size(159, 22)
         Me.TotalRegisterToolStripMenuItem.Text = "Total Register"
+        '
+        'BannedCheckToolStripMenuItem
+        '
+        Me.BannedCheckToolStripMenuItem.Name = "BannedCheckToolStripMenuItem"
+        Me.BannedCheckToolStripMenuItem.Size = New System.Drawing.Size(159, 22)
+        Me.BannedCheckToolStripMenuItem.Text = "Banned Check"
         '
         'MaintainingToolStripMenuItem
         '
@@ -240,12 +246,6 @@ Partial Class AIOTFRF
         Me.DatasLoad.Size = New System.Drawing.Size(183, 49)
         Me.DatasLoad.TabIndex = 2
         Me.DatasLoad.Text = ""
-        '
-        'BannedCheckToolStripMenuItem
-        '
-        Me.BannedCheckToolStripMenuItem.Name = "BannedCheckToolStripMenuItem"
-        Me.BannedCheckToolStripMenuItem.Size = New System.Drawing.Size(159, 22)
-        Me.BannedCheckToolStripMenuItem.Text = "Banned Check"
         '
         'AIOTFRF
         '
