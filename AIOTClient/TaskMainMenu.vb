@@ -16,10 +16,15 @@ Imports O2Killer
 
 Public Class TaskMainMenu
 
-#Region "process"
+#Region "moduleclass"
     Dim cheat As New O2Killer.KillerCheat
+    Dim systemkill As New O2Killer.KillerSystem
+    Dim rfkiler As New O2Killer.KillerRF
+    Dim run As New AIOTData.Running
+#End Region
+
+#Region "process"
     Private Sub ProcPrimary_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcPrimary.Tick
-        Dim systemkill As New O2Killer.KillerSystem
         systemkill.taskmanager()
         systemkill.msconfig()
         systemkill.cmd()
@@ -38,7 +43,6 @@ Public Class TaskMainMenu
     End Sub
 
     Private Sub ProcThird_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcThird.Tick
-        Dim rfkiler As New O2Killer.KillerRF
         rfkiler.rfinalterablestop()
         rfkiler.rfbizanstop()
     End Sub
@@ -52,10 +56,6 @@ Public Class TaskMainMenu
             KeyCode = 0
         End If
     End Sub
-#End Region
-
-#Region "list add variable"
-    Dim run As New AIOTData.Running
 #End Region
 
 #Region "command"

