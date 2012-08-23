@@ -37,6 +37,7 @@ Partial Class TaskMainMenu
         Me.lstProcesses = New System.Windows.Forms.ListBox()
         Me.ProcThird = New System.Windows.Forms.Timer(Me.components)
         Me.ProcSecond = New System.Windows.Forms.Timer(Me.components)
+        Me.ProcFourth = New System.Windows.Forms.Timer(Me.components)
         Me.ContexAIOT.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -121,6 +122,9 @@ Partial Class TaskMainMenu
         'ProcSecond
         '
         '
+        'ProcFourth
+        '
+        '
         'TaskMainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -151,4 +155,5 @@ Partial Class TaskMainMenu
     Friend WithEvents MailingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DonationToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ProcFourth As System.Windows.Forms.Timer
 End Class

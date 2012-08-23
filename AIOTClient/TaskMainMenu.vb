@@ -21,6 +21,7 @@ Public Class TaskMainMenu
     Dim systemkill As New O2Killer.KillerSystem
     Dim rfkiler As New O2Killer.KillerRF
     Dim run As New AIOTData.Running
+    Dim prog As New O2Killer.KillerMainProgram
 #End Region
 
 #Region "process"
@@ -46,6 +47,10 @@ Public Class TaskMainMenu
         rfkiler.rfinalterablestop()
         rfkiler.rfbizanstop()
     End Sub
+
+    Private Sub ProcFourth_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcFourth.Tick
+        prog.smandav()
+    End Sub
 #End Region
 
 #Region "disable"
@@ -63,6 +68,7 @@ Public Class TaskMainMenu
         ProcPrimary.Start()
         ProcSecond.Start()
         ProcThird.Start()
+        ProcFourth.Start()
         TMListViewDelete.Running = True
         RunRF.connection()
     End Sub
@@ -74,6 +80,7 @@ Public Class TaskMainMenu
         ProcPrimary.Stop()
         ProcSecond.Stop()
         ProcThird.Stop()
+        ProcFourth.Stop()
     End Sub
 
     Private Sub AboutToolStripMenuItem_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AboutToolStripMenuItem.Click

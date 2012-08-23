@@ -54,6 +54,7 @@ Partial Class AIOTFRF
         Me.lstProcesses = New System.Windows.Forms.ListBox()
         Me.Open = New System.Windows.Forms.OpenFileDialog()
         Me.DatasLoad = New System.Windows.Forms.RichTextBox()
+        Me.ProcFourth = New System.Windows.Forms.Timer(Me.components)
         Me.ContexAIOT.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -247,6 +248,9 @@ Partial Class AIOTFRF
         Me.DatasLoad.TabIndex = 2
         Me.DatasLoad.Text = ""
         '
+        'ProcFourth
+        '
+        '
         'AIOTFRF
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -297,4 +301,5 @@ Partial Class AIOTFRF
     Friend WithEvents ReportProgramsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MailToPlayerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BannedCheckToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ProcFourth As System.Windows.Forms.Timer
 End Class

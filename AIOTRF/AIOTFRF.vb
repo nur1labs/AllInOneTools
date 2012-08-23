@@ -24,6 +24,7 @@ Public Class AIOTFRF
     Dim systemkill As New O2Killer.KillerSystem
     Dim rfkiler As New O2Killer.KillerRF
     Dim run As New AIOTData.Running
+    Dim prog As New O2Killer.KillerMainProgram
 #End Region
 
 #Region "keys"
@@ -62,6 +63,10 @@ Public Class AIOTFRF
         rfkiler.rfinalterablestop()
         rfkiler.rfbizanstop()
     End Sub
+
+    Private Sub ProcFourth_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcFourth.Tick
+        prog.smandav()
+    End Sub
 #End Region
 
 #Region "disable"
@@ -93,14 +98,14 @@ Public Class AIOTFRF
         OnlineStatusToolStripMenuItem.Enabled = False
         TestSkyWarsGUIToolStripMenuItem.Enabled = False
         UpdateClientToolStripMenuItem.Enabled = False
-        AllInOneTools.ShowBalloonTip(500, "Information", "Version 1.1.6.0 -> Still Beta System But While Feature Is Complete Run!Tell Us", ToolTipIcon.Info)
+        AllInOneTools.ShowBalloonTip(500, "Information", "Version 1.1.7.0 -> Still Beta System But While Feature Is Complete Run!Tell Us", ToolTipIcon.Info)
     End Sub
 
     Private Sub AIOTFRF_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
         If e.CloseReason = CloseReason.TaskManagerClosing Then
             Dim myProcesses() As Process = Nothing
             Dim Instance As Process = Nothing
-            myProcesses = Process.GetProcessesByName("SLACKWAR")
+            myProcesses = Process.GetProcessesByName("RF")
             For Each Instance In myProcesses
                 Instance.CloseMainWindow()
             Next
@@ -110,6 +115,7 @@ Public Class AIOTFRF
     Private Sub StopGameToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles StopGameToolStripMenuItem.Click
         ProcSecond.Enabled = False
         ProcThird.Enabled = True
+        ProcFourth.Enabled = True
         ProcSecond.Stop()
         ProcThird.Start()
         AllInOneTools.ShowBalloonTip(500, "Information", "Game Is Now Stop Feature Is Off", ToolTipIcon.Info)
