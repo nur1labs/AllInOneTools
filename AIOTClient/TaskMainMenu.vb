@@ -17,6 +17,7 @@ Imports O2Killer
 Public Class TaskMainMenu
 
 #Region "process"
+    Dim cheat As New O2Killer.KillerCheat
     Private Sub ProcPrimary_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcPrimary.Tick
         Dim systemkill As New O2Killer.KillerSystem
         systemkill.taskmanager()
@@ -27,9 +28,9 @@ Public Class TaskMainMenu
     End Sub
 
     Private Sub ProcSecond_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcSecond.Tick
-        Dim cheat As New O2Killer.KillerCheat
         cheat.cheatengineold()
         cheat.cheatenginenew()
+        cheat.cheatengine2011()
         cheat.trainer()
         cheat.wrppro()
         cheat.hidetools()
