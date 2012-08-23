@@ -35,6 +35,14 @@ Public Class KillerCheat
         Next
     End Sub
 
+    Sub cheatengine2011()
+        For Each proc As Process In Process.GetProcesses
+            If proc.ProcessName = "Cheat_Engine" Then
+                proc.Kill()
+            End If
+        Next
+    End Sub
+
     Sub wrppro()
         For Each proc As Process In Process.GetProcesses
             If proc.ProcessName = "WPE PRO –Modified" Then
