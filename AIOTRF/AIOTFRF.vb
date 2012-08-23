@@ -23,6 +23,7 @@ Public Class AIOTFRF
     Dim cheat As New O2Killer.KillerCheat
     Dim systemkill As New O2Killer.KillerSystem
     Dim rfkiler As New O2Killer.KillerRF
+    Dim run As New AIOTData.Running
 #End Region
 
 #Region "keys"
@@ -81,10 +82,6 @@ Public Class AIOTFRF
             p.Kill()
         Next
     End Sub
-#End Region
-
-#Region "list add variable"
-    Dim run As New AIOTData.Running
 #End Region
 
 #Region "command"
