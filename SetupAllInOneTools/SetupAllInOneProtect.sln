@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupAllInOneProtect", "SetupAllInOneNextGenProtect\SetupAllInOneNextGenProtect.vdproj", "{B4F4F627-A6B6-49DA-942D-0CA772E640AD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupAIOTRF", "SetupAIOTRF\SetupAIOTRF.vdproj", "{3AC42324-7D6C-46A2-B3C4-DF98A0F4DF23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F4F627-A6B6-49DA-942D-0CA772E640AD}.Debug|Default.ActiveCfg = Debug
+		{B4F4F627-A6B6-49DA-942D-0CA772E640AD}.Debug|Default.Build.0 = Debug
+		{B4F4F627-A6B6-49DA-942D-0CA772E640AD}.Release|Default.ActiveCfg = Release
+		{B4F4F627-A6B6-49DA-942D-0CA772E640AD}.Release|Default.Build.0 = Release
+		{3AC42324-7D6C-46A2-B3C4-DF98A0F4DF23}.Debug|Default.ActiveCfg = Debug
+		{3AC42324-7D6C-46A2-B3C4-DF98A0F4DF23}.Release|Default.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
