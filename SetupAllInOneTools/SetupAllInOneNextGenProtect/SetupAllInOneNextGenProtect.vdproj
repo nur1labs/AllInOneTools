@@ -27,14 +27,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_198AA48BF9B843928FB9BAD0EACB2123"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_2E8E8003A08E1CEED76410910915BD77"
-        "OwnerKey" = "8:_198AA48BF9B843928FB9BAD0EACB2123"
+        "OwnerKey" = "8:_E5E94293C6CF4A23879648AC80440F87"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -52,7 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_D7AEEC036051B8B3524972FBF9369D17"
-        "OwnerKey" = "8:_198AA48BF9B843928FB9BAD0EACB2123"
+        "OwnerKey" = "8:_E5E94293C6CF4A23879648AC80440F87"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -69,20 +63,26 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D7AEEC036051B8B3524972FBF9369D17"
+        "MsmKey" = "8:_E5E94293C6CF4A23879648AC80440F87"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_198AA48BF9B843928FB9BAD0EACB2123"
+        "OwnerKey" = "8:_E5E94293C6CF4A23879648AC80440F87"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_2E8E8003A08E1CEED76410910915BD77"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_D7AEEC036051B8B3524972FBF9369D17"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -196,37 +196,6 @@
             "TargetName" = "8:slackwar.bmp"
             "Tag" = "8:"
             "Folder" = "8:_DDC3248532084193BB533DCCFE485497"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_198AA48BF9B843928FB9BAD0EACB2123"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AIOTClient, Version=1.1.6.0, Culture=neutral, processorArchitecture=x86"
-                "ScatterAssemblies"
-                {
-                    "_198AA48BF9B843928FB9BAD0EACB2123"
-                    {
-                    "Name" = "8:AIOTClient.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\..\\AIOTClient\\bin\\Release\\AIOTClient.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_291ECA1A2C2C4AD88E9380B034CD68C3"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -383,6 +352,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E5E94293C6CF4A23879648AC80440F87"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:AIOTClient, Version=1.1.7.0, Culture=neutral, processorArchitecture=x86"
+                "ScatterAssemblies"
+                {
+                    "_E5E94293C6CF4A23879648AC80440F87"
+                    {
+                    "Name" = "8:AIOTClient.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\..\\AIOTClient\\bin\\Release\\AIOTClient.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_291ECA1A2C2C4AD88E9380B034CD68C3"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -401,7 +401,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_291ECA1A2C2C4AD88E9380B034CD68C3"
                     {
-                    "Name" = "8:MGC"
+                    "Name" = "8:Ragezone"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -494,15 +494,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:AutoPatcher"
-        "ProductCode" = "8:{77FAAFB0-8BEF-4361-9493-F043A735B0F0}"
-        "PackageCode" = "8:{5A651CB4-435C-4BC2-B95C-6D8D42A5E26C}"
+        "ProductCode" = "8:{A50F4608-26DA-45B7-BE5D-016365B22B65}"
+        "PackageCode" = "8:{B4E4F830-D878-4059-B7A7-83411F87963F}"
         "UpgradeCode" = "8:{A840BCF5-E878-46D2-9757-CE81362C1D53}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.1.6"
+        "ProductVersion" = "8:1.1.7"
         "Manufacturer" = "8:MGC.Inc"
         "ARPHELPTELEPHONE" = "8:+6282130266661"
         "ARPHELPLINK" = "8:http://o2psoftlabsportal.comeze.com/"
@@ -623,7 +623,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_198AA48BF9B843928FB9BAD0EACB2123"
+            "Target" = "8:_E5E94293C6CF4A23879648AC80440F87"
             "Folder" = "8:_C4069FC2861A4EE6A5340089ED38ECA1"
             "WorkingFolder" = "8:_291ECA1A2C2C4AD88E9380B034CD68C3"
             "Icon" = "8:_D9FC0C46F2E84304AEDD8EB1D6220264"
@@ -637,7 +637,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_198AA48BF9B843928FB9BAD0EACB2123"
+            "Target" = "8:_E5E94293C6CF4A23879648AC80440F87"
             "Folder" = "8:_E2C797149D6E4BF9B3999C408641403C"
             "WorkingFolder" = "8:_291ECA1A2C2C4AD88E9380B034CD68C3"
             "Icon" = "8:_D9FC0C46F2E84304AEDD8EB1D6220264"
@@ -651,7 +651,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_198AA48BF9B843928FB9BAD0EACB2123"
+            "Target" = "8:_E5E94293C6CF4A23879648AC80440F87"
             "Folder" = "8:_E6E7A621A620456C99024773B1090775"
             "WorkingFolder" = "8:_291ECA1A2C2C4AD88E9380B034CD68C3"
             "Icon" = "8:_D9FC0C46F2E84304AEDD8EB1D6220264"

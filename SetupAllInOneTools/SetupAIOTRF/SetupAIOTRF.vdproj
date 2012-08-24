@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_090565CEEEA94AE6916BD8840846D7A8"
+        "MsmKey" = "8:_037B484DE6074355A3C26210327B4492"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -27,31 +27,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_10A222831B3A4A2B83B1A98E65F56DAC"
+        "MsmKey" = "8:_1337CEBD09344CD3A7BB894D15A8E81C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_494ECD8CBEC2499984713A1F7E3A1944"
+        "MsmKey" = "8:_15E6D7630EC940B38BA3462610C4B1F5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_62149A8C9DC843D8BFE24302F5D1F116"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_62A85DBF6AA74D5E9C9E17C02A272ECF"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6615C21E845B45259CCA85CC9BB18EC3"
+        "MsmKey" = "8:_2E49E3C8A6C34863A1E64B4A6848F07D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -69,19 +57,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_859BC212458D47C680019CEF3F8E65A3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_90D0FA526CE44BCD89245C3A1A609472"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_9AA4F9C50D7D41C6A1EC6244887B6AAC"
+        "MsmKey" = "8:_886FBB64594D478DBD5A360A532FBCD3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -93,13 +69,25 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CE7BF3C766D6453DB9B143AE79F2D92F"
+        "MsmKey" = "8:_B4B53ADFEAF442AEBD574813A9EDC27B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_D1CB059185B045978B6978E735C2F251"
+        "MsmKey" = "8:_C465ED10BD6F4A2E8B0DE12E697B0668"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C5034C42C5234F08A6A6950CDB9DF9E2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CE7BF3C766D6453DB9B143AE79F2D92F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -117,6 +105,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E09E359045A84E8EB129E0574D4FC4E8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E7AB612E91F54A50A814FD1762F0CAF1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -129,8 +123,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A2F5E2127F568D50A2BA987B92D4B124"
+        "MsmKey" = "8:_F7C9BB126C86429E8EB449B50B232196"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -143,6 +137,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D374294A4BC0EAAFCFE7A7161EB604EA"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A2F5E2127F568D50A2BA987B92D4B124"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -250,12 +250,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_090565CEEEA94AE6916BD8840846D7A8"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_037B484DE6074355A3C26210327B4492"
             {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\ru-ru\\PlayerCharacter.edf"
-            "TargetName" = "8:PlayerCharacter.edf"
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\Character.edf"
+            "TargetName" = "8:Character.edf"
             "Tag" = "8:"
-            "Folder" = "8:_E29920F9C3EE4C40B311BB6BCB56726C"
+            "Folder" = "8:_429FEA6AA6C7447C80E6135040596F95"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -274,7 +274,7 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:AIOTRF, Version=1.1.6.0, Culture=neutral, processorArchitecture=x86"
+            "AssemblyAsmDisplayName" = "8:AIOTRF, Version=1.1.7.0, Culture=neutral, processorArchitecture=x86"
                 "ScatterAssemblies"
                 {
                     "_0AB21E99E0284ED69438E03D9DA707A3"
@@ -301,12 +301,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10A222831B3A4A2B83B1A98E65F56DAC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1337CEBD09344CD3A7BB894D15A8E81C"
             {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\ru-ru\\Player.edf"
-            "TargetName" = "8:Player.edf"
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\PlayerCharacter.edf"
+            "TargetName" = "8:PlayerCharacter.edf"
             "Tag" = "8:"
-            "Folder" = "8:_E29920F9C3EE4C40B311BB6BCB56726C"
+            "Folder" = "8:_429FEA6AA6C7447C80E6135040596F95"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -321,9 +321,9 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_494ECD8CBEC2499984713A1F7E3A1944"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_15E6D7630EC940B38BA3462610C4B1F5"
             {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\en-gb\\Character.edf"
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\en-gb\\Character.edf"
             "TargetName" = "8:Character.edf"
             "Tag" = "8:"
             "Folder" = "8:_D55689AA7A1043A2BD55790EE94F2546"
@@ -341,52 +341,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62149A8C9DC843D8BFE24302F5D1F116"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2E49E3C8A6C34863A1E64B4A6848F07D"
             {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\en-gb\\Player.edf"
-            "TargetName" = "8:Player.edf"
-            "Tag" = "8:"
-            "Folder" = "8:_D55689AA7A1043A2BD55790EE94F2546"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62A85DBF6AA74D5E9C9E17C02A272ECF"
-            {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\SlackWars.exe"
-            "TargetName" = "8:SlackWars.exe"
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\RagezoneRF.exe"
+            "TargetName" = "8:RagezoneRF.exe"
             "Tag" = "8:"
             "Folder" = "8:_61C749434E2D4C2FA56E26F7FF9C57D5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6615C21E845B45259CCA85CC9BB18EC3"
-            {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\ru-ru\\Character.edf"
-            "TargetName" = "8:Character.edf"
-            "Tag" = "8:"
-            "Folder" = "8:_E29920F9C3EE4C40B311BB6BCB56726C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -441,50 +401,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_859BC212458D47C680019CEF3F8E65A3"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_886FBB64594D478DBD5A360A532FBCD3"
             {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\en-gb\\PlayerCharacter.edf"
-            "TargetName" = "8:PlayerCharacter.edf"
-            "Tag" = "8:"
-            "Folder" = "8:_D55689AA7A1043A2BD55790EE94F2546"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_90D0FA526CE44BCD89245C3A1A609472"
-            {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\Player.edf"
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\Player.edf"
             "TargetName" = "8:Player.edf"
-            "Tag" = "8:"
-            "Folder" = "8:_429FEA6AA6C7447C80E6135040596F95"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9AA4F9C50D7D41C6A1EC6244887B6AAC"
-            {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\Character.edf"
-            "TargetName" = "8:Character.edf"
             "Tag" = "8:"
             "Folder" = "8:_429FEA6AA6C7447C80E6135040596F95"
             "Condition" = "8:"
@@ -532,12 +452,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE7BF3C766D6453DB9B143AE79F2D92F"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B4B53ADFEAF442AEBD574813A9EDC27B"
             {
-            "SourcePath" = "8:..\\..\\AIOTClient\\bin\\Debug\\Lincesed AIOT.rtf"
-            "TargetName" = "8:Lincesed AIOT.rtf"
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\ru-ru\\PlayerCharacter.edf"
+            "TargetName" = "8:PlayerCharacter.edf"
             "Tag" = "8:"
-            "Folder" = "8:_61C749434E2D4C2FA56E26F7FF9C57D5"
+            "Folder" = "8:_E29920F9C3EE4C40B311BB6BCB56726C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -552,12 +472,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D1CB059185B045978B6978E735C2F251"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C465ED10BD6F4A2E8B0DE12E697B0668"
             {
-            "SourcePath" = "8:D:\\RF Client\\BBMGC\\RF\\DataTable\\PlayerCharacter.edf"
-            "TargetName" = "8:PlayerCharacter.edf"
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\ru-ru\\Character.edf"
+            "TargetName" = "8:Character.edf"
             "Tag" = "8:"
-            "Folder" = "8:_429FEA6AA6C7447C80E6135040596F95"
+            "Folder" = "8:_E29920F9C3EE4C40B311BB6BCB56726C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C5034C42C5234F08A6A6950CDB9DF9E2"
+            {
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\en-gb\\Player.edf"
+            "TargetName" = "8:Player.edf"
+            "Tag" = "8:"
+            "Folder" = "8:_D55689AA7A1043A2BD55790EE94F2546"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE7BF3C766D6453DB9B143AE79F2D92F"
+            {
+            "SourcePath" = "8:..\\..\\AIOTClient\\bin\\Debug\\Lincesed AIOT.rtf"
+            "TargetName" = "8:Lincesed AIOT.rtf"
+            "Tag" = "8:"
+            "Folder" = "8:_61C749434E2D4C2FA56E26F7FF9C57D5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -623,6 +583,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E09E359045A84E8EB129E0574D4FC4E8"
+            {
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\ru-ru\\Player.edf"
+            "TargetName" = "8:Player.edf"
+            "Tag" = "8:"
+            "Folder" = "8:_E29920F9C3EE4C40B311BB6BCB56726C"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E7AB612E91F54A50A814FD1762F0CAF1"
             {
             "SourcePath" = "8:..\\..\\AIOTClient\\bin\\Debug\\Image\\inalterablelogo.ico"
@@ -649,6 +629,26 @@
             "TargetName" = "8:AIOTCHelp.chm"
             "Tag" = "8:"
             "Folder" = "8:_7D460D24664A49128CA5C7EC79BE77F1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F7C9BB126C86429E8EB449B50B232196"
+            {
+            "SourcePath" = "8:D:\\RF Client\\MGC\\RF\\DataTable\\en-gb\\PlayerCharacter.edf"
+            "TargetName" = "8:PlayerCharacter.edf"
+            "Tag" = "8:"
+            "Folder" = "8:_D55689AA7A1043A2BD55790EE94F2546"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -785,15 +785,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:AIOTRF"
-        "ProductCode" = "8:{B523C280-7ED2-47A2-86D6-90DDE2D72992}"
-        "PackageCode" = "8:{50BCD4A6-57CF-4CA9-942E-4AD424E606BA}"
+        "ProductCode" = "8:{BCA3841C-3424-4531-8DA0-1771C99F6CC1}"
+        "PackageCode" = "8:{FBA21015-A71C-4B4A-945D-7F93478CBC98}"
         "UpgradeCode" = "8:{DC9E2068-BF45-40FE-9AF4-EF593D18C9D9}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.1.6"
+        "ProductVersion" = "8:1.1.7"
         "Manufacturer" = "8:MGC.Inc"
         "ARPHELPTELEPHONE" = "8:+6282130266661"
         "ARPHELPLINK" = "8:http://o2psoftlabsportal.comeze.com/"
@@ -908,7 +908,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4043EECE83A84BD78B1CFAEFB5E2B391"
             {
-            "Name" = "8:AIOTRF 1.1.6"
+            "Name" = "8:AIOTRF 1.1.7"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -922,7 +922,7 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_77A450A6C8284452A8F8C187CEFF7D11"
             {
-            "Name" = "8:AIOTRF 1.1.6"
+            "Name" = "8:AIOTRF 1.1.7"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
