@@ -58,7 +58,7 @@
     </Reference>
     <Reference Include="O2Killer, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\AIOTData\bin\Release\O2Killer.dll</HintPath>
+      <HintPath>..\O2Killer\bin\Release\O2Killer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
