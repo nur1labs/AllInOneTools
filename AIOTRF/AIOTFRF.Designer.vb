@@ -54,7 +54,6 @@ Partial Class AIOTFRF
         Me.lstProcesses = New System.Windows.Forms.ListBox()
         Me.Open = New System.Windows.Forms.OpenFileDialog()
         Me.DatasLoad = New System.Windows.Forms.RichTextBox()
-        Me.ProcFourth = New System.Windows.Forms.Timer(Me.components)
         Me.ContexAIOT.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -72,13 +71,13 @@ Partial Class AIOTFRF
         '
         Me.ContexAIOT.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FeatureToolStripMenuItem, Me.StartGameToolStripMenuItem, Me.StopGameToolStripMenuItem, Me.ToolStripSeparator1, Me.UpdateToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.ContexAIOT.Name = "ContexAIOT"
-        Me.ContexAIOT.Size = New System.Drawing.Size(153, 142)
+        Me.ContexAIOT.Size = New System.Drawing.Size(152, 120)
         '
         'FeatureToolStripMenuItem
         '
         Me.FeatureToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TestSkyWarsGUIToolStripMenuItem, Me.GamingToolStripMenuItem, Me.MaintainingToolStripMenuItem, Me.MailingToolStripMenuItem})
         Me.FeatureToolStripMenuItem.Name = "FeatureToolStripMenuItem"
-        Me.FeatureToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.FeatureToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.FeatureToolStripMenuItem.Text = "Feature"
         '
         'TestSkyWarsGUIToolStripMenuItem
@@ -173,7 +172,7 @@ Partial Class AIOTFRF
         Me.StartGameToolStripMenuItem.Name = "StartGameToolStripMenuItem"
         Me.StartGameToolStripMenuItem.ShortcutKeyDisplayString = ""
         Me.StartGameToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.StartGameToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.StartGameToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.StartGameToolStripMenuItem.Text = "Start Game"
         '
         'StopGameToolStripMenuItem
@@ -181,19 +180,19 @@ Partial Class AIOTFRF
         Me.StopGameToolStripMenuItem.Name = "StopGameToolStripMenuItem"
         Me.StopGameToolStripMenuItem.ShortcutKeyDisplayString = ""
         Me.StopGameToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3
-        Me.StopGameToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.StopGameToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.StopGameToolStripMenuItem.Text = "Stop Game"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(148, 6)
         '
         'UpdateToolStripMenuItem
         '
         Me.UpdateToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UpdateClientToolStripMenuItem, Me.UpdateProgramToolStripMenuItem})
         Me.UpdateToolStripMenuItem.Name = "UpdateToolStripMenuItem"
-        Me.UpdateToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.UpdateToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.UpdateToolStripMenuItem.Text = "Update"
         '
         'UpdateClientToolStripMenuItem
@@ -215,7 +214,7 @@ Partial Class AIOTFRF
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.ShortcutKeyDisplayString = ""
         Me.HelpToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.HelpToolStripMenuItem.Text = "Help"
         '
         'ProcPrimary
@@ -247,9 +246,6 @@ Partial Class AIOTFRF
         Me.DatasLoad.Size = New System.Drawing.Size(183, 49)
         Me.DatasLoad.TabIndex = 2
         Me.DatasLoad.Text = ""
-        '
-        'ProcFourth
-        '
         '
         'AIOTFRF
         '
@@ -301,5 +297,4 @@ Partial Class AIOTFRF
     Friend WithEvents ReportProgramsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MailToPlayerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BannedCheckToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ProcFourth As System.Windows.Forms.Timer
 End Class

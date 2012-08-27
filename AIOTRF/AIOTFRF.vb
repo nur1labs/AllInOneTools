@@ -21,7 +21,6 @@ Public Class AIOTFRF
 
 #Region "moduleclass"
     Dim cheat As New O2Killer.KillerCheat
-    Dim systemkill As New O2Killer.KillerSystem
     Dim rfkiler As New O2Killer.KillerRF
     Dim run As New AIOTData.Running
     Dim prog As New O2Killer.KillerMainProgram
@@ -41,14 +40,6 @@ Public Class AIOTFRF
 
 #Region "process"
     Private Sub ProcPrimary_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcPrimary.Tick
-        systemkill.taskmanager()
-        systemkill.msconfig()
-        systemkill.cmd()
-        systemkill.shutdown()
-        systemkill.regedit()
-    End Sub
-
-    Private Sub ProcSecond_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcSecond.Tick
         cheat.cheatengine2011()
         cheat.cheatengineold()
         cheat.cheatenginenew()
@@ -62,13 +53,13 @@ Public Class AIOTFRF
         cheat.rf_online()
     End Sub
 
-    Private Sub ProcThird_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcThird.Tick
+    Private Sub ProcSecond_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcSecond.Tick
         rfkiler.rfinalterablestop()
         rfkiler.rfbizanstop()
     End Sub
 
-    Private Sub ProcFourth_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcFourth.Tick
-        prog.smandav()
+    Private Sub ProcThird_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProcThird.Tick
+       prog.smandav()
     End Sub
 #End Region
 
@@ -118,7 +109,6 @@ Public Class AIOTFRF
     Private Sub StopGameToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles StopGameToolStripMenuItem.Click
         ProcSecond.Enabled = False
         ProcThird.Enabled = True
-        ProcFourth.Enabled = True
         ProcSecond.Stop()
         ProcThird.Start()
         AllInOneTools.ShowBalloonTip(500, "Information", "Game Is Now Stop Feature Is Off", ToolTipIcon.Info)

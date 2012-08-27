@@ -67,7 +67,6 @@
     <Compile Include="KillerCheat.vb" />
     <Compile Include="KillerMainProgram.vb" />
     <Compile Include="KillerRF.vb" />
-    <Compile Include="KillerSystem.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

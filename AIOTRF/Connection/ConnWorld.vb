@@ -5,7 +5,7 @@ Module ConnWorld
         Dim dcmdworld As New SqlCommand
         Dim conworld As SqlConnection
 
-        conworld = New SqlConnection("server=74.81.93.202;uid=Ragezone;pwd=Yt230711;database=RF_World;")
+        conworld = New SqlConnection("server=195.91.172.114;uid=sa;pwd=ShadowRun007;database=RF_World;")
         Return conworld
         conworld = Nothing
     End Function
