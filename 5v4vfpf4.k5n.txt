@@ -9,4 +9,10 @@
 #	new file:   AIOTClient/TaskMainMenu.resx
 #	new file:   AIOTClient/TaskMainMenu.vb
 #
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    0doikgbt.z0r.txt
+#
 
