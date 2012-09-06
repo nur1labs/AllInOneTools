@@ -5,7 +5,7 @@ Module ConnBilling
         Dim dcmdBill As New SqlCommand
         Dim conbill As SqlConnection
 
-        conbill = New SqlConnection("server=195.91.172.114;uid=sa;pwd=ShadowRun007;database=BILLING;")
+        conbill = New SqlConnection("server=127.0.0.1;uid=MMODB;pwd=Test;database=BILLING;")
         Return conbill
         conbill = Nothing
     End Function

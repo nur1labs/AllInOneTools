@@ -5,7 +5,7 @@ Module ConnUser
         Dim dcmduser As New SqlCommand
         Dim conuser As SqlConnection
 
-        conuser = New SqlConnection("server=195.91.172.114;uid=sa;pwd=ShadowRun007;database=RF_User;")
+        conuser = New SqlConnection("server=127.0.0.1;uid=MMODB;pwd=Test;database=RF_User;")
         Return conuser
         conuser = Nothing
     End Function
